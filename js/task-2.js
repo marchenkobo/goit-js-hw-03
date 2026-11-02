@@ -1,6 +1,6 @@
 function makeArray(firstArray, secondArray, maxLength) {
   const mixedArray = firstArray.concat(secondArray);
-  if (mixedArray <= maxLength) {
+  if (mixedArray.length <= maxLength) {
     return mixedArray;
   } else {
     let limitedMixedArray = [];
